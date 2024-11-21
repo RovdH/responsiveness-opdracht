@@ -3,34 +3,26 @@
 /*////////////////////////////////////////////////////////////////////////
 Table of Contents:
     1. Global Styles
-    2. Typografie
-    3. Areas
-    4. Media Queries
+    2. Areas
+    3. Media Queries
 ////////////////////////////////////////////////////////////////////////*/
 
 /*////////////////////////
     1. Global Styles
 ////////////////////////*/
-
 body {
     font-family: 'Dosis', sans-serif;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 16px;
     background-color: #f69051;
     padding: 15px;
 }
+
 h2 {
-    font-size: 30px;
-}
+    font-size: 30px; }
 
 /*////////////////////////
-    2. Typography
-////////////////////////*/
-
-
-
-/*////////////////////////
-    3. Areas
+    2. sections & image
 ////////////////////////*/
 section {
     background-color: #f9c48b;
@@ -50,10 +42,9 @@ section {
 }
 
 /*////////////////////////
-    2. Media Queries
+    3. Media Queries
 ////////////////////////*/
-/* mobile */
-
+/* mobile = global style */
 /* Tablet */
 @media screen and (min-width: 768px) {
     section {
