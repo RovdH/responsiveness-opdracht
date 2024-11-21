@@ -15,6 +15,12 @@ Table of Contents:
 body {
     font-family: 'Dosis', sans-serif;
     font-weight: 400;
+    font-size: 12px;
+    background-color: #f69051;
+    padding: 15px;
+}
+h2 {
+    font-size: 30px;
 }
 
 /*////////////////////////
@@ -26,10 +32,57 @@ body {
 /*////////////////////////
     3. Areas
 ////////////////////////*/
+section {
+    background-color: #f9c48b;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 1%;
 
+    img {
+        width: 100%;
+    }
+
+    .image-wrapper {
+        flex-basis: 600px;
+        flex-grow: 0;
+        flex-shrink: 1;
+    }
+}
 
 
 
 /*////////////////////////
     2. Media Queries
 ////////////////////////*/
+/* mobile */
+
+
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+    section {
+        padding: 1.5rem;
+        font-size: 1.5rem;
+        margin: 1.5rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Laptop or larger */
+@media screen and (min-width: 992px) {
+ body {
+     background-color: #260803;
+     font-size: 2rem;
+
+     h2 {
+         font-size: 2rem;
+     }
+     section {
+         padding: 2rem;
+         margin: 2rem;
+         background-color: #FDEFEC;
+     }
+ }
+}
