@@ -36,7 +36,7 @@ section {
     background-color: #f9c48b;
     padding: 10px;
     margin: 10px;
-    border-radius: 1%;
+    border-radius: 15px;
 
     img {
         width: 100%;
@@ -49,14 +49,10 @@ section {
     }
 }
 
-
-
 /*////////////////////////
     2. Media Queries
 ////////////////////////*/
 /* mobile */
-
-
 
 /* Tablet */
 @media screen and (min-width: 768px) {
@@ -64,6 +60,7 @@ section {
         padding: 1.5rem;
         font-size: 1.5rem;
         margin: 1.5rem;
+        border-radius: 1rem;
     }
     h2 {
         font-size: 1.5rem;
@@ -83,6 +80,7 @@ section {
          padding: 2rem;
          margin: 2rem;
          background-color: #FDEFEC;
+         border-radius: 1rem;
      }
  }
 }
